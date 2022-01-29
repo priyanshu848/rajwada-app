@@ -1,0 +1,100 @@
+.priceBox {
+  padding: 15px;
+  border-bottom: 1px solid rgb(232, 232, 232);
+  background: rgb(254, 252, 249);
+  .subBox {
+    display: flex;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    .total {
+      line-height: 1.5;
+      margin: 0px;
+      color: rgb(79, 79, 79);
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .subPrice {
+      line-height: 1.5;
+      margin: 0px;
+      color: rgb(79, 79, 79);
+      font-weight: 500;
+      font-size: 14px;
+      .price {
+        font-size: 14px;
+        color: rgb(28, 28, 28);
+      }
+    }
+  }
+  .taxBox {
+    display: flex;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 1rem;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    .taxText {
+      font-size: 14px;
+      width: 75%;
+      text-decoration: underline dashed;
+      color: rgb(130, 130, 130);
+    }
+    .taxPrice {
+      line-height: 1.5;
+      margin: 0px;
+      font-size: 12px;
+      color: rgb(130, 130, 130);
+      white-space: nowrap;
+    }
+  }
+  .line {
+    margin-top: 10px;
+    height: 0px;
+    border-width: 0.5px 0px 0px;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-top-style: solid;
+    border-top-color: rgb(232, 232, 232);
+  }
+  .grandTotal {
+    display: flex;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .grandText {
+      font-size: inherit;
+      line-height: 1.5;
+      margin: 0px;
+      color: rgb(54, 54, 54);
+      font-weight: 500;
+    }
+    .grandPrice {
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      .priceText {
+        font-size: 14px;
+        color: rgb(28, 28, 28);
+      }
+    }
+  }
+}
